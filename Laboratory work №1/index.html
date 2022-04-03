@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // Задание 1
+        alert('Вас приветствует учебный центр');
+        var name = prompt('Введите имя:', 'Имя');
+        alert('Добро пожаловать на наши курсы, ' + name);
+        var choise = confirm('Хотите стать Web-дизайнером?');
+        if (choise === true) alert('"Учите стили CSS и JavaScript!'); else alert('Упускаете время!');
+
+        // Задание 2
+        alert(10 + 5);
+        alert('10' + '5');
+        alert(22 + '5');
+        alert('22' + 5);
+        alert('Результатом сложения строки и числа всегда будет строка');
+
+        // Задание 3
+        var numbx = prompt('Введите х= ');
+        var numby = prompt('Введите y= ');
+        document.write(numbx * numby * 20 + '<br>');
+        alert(numbx * numby * 20);
+        var numbz = x * y * 20;
+        document.write(numbx * numby * 3 + '<br>');
+        alert(numbx * numby * 3);
+        var numbw = numbx * numby * 3;
+        alert(numbz % numbw);
+        document.write(z % w);
+
+        // Задание 4
+        var numbs = prompt('Введите число= ');
+        if ((numbs > 40 || numbs < 20) && numbs != 15 && numbs % 5 === 0) { alert('Правильное значение') }
+        else alert('Не правильное значение');
+        // пример задания 4
+        var numbb = confirm('Получил оценку?');
+        if (numbb === true) {
+            var numbm = prompt('Какую?');
+            if (numbm >= 5) alert('Хорошо');
+            else alert('Плохо');
+        }
+
+        // Задание 5
+        var numbf = prompt('Введи 1 число= ');
+        var numbe = prompt('Введи 2 число= ');
+        if (numbf > numbe) alert('1 число>2 числа');
+        else if (numbf < numbxe) alert('2число>1числа');
+        else alert('1 число=2 числу');
+        var numbc = (numbf > numbe) ? numbf : numbe;
+        alert(c);
+        // Пример задания 5
+        var numbp = prompt('Введи число A= ');
+        var numby = prompt('Введи число B= ');
+        if (numbp > numby) alert('A>=B');
+        else alert('A<=B');
+
+        // Задание 6
+        let k = new Date();
+
+        switch (k.getDay()) {
+            case 1: alert('Понедельник'); break;
+            case 2: alert('Вторник'); break;
+            case 3: alert('Среда'); break;
+            case 4: alert('Четверг'); break;
+            case 5: alert('Пятница'); break;
+            case 6: alert('Суббота'); break;
+            case 0: alert('Воскресенье'); break;
+            default: alert('ssss');
+        }
+
+        // Задание 7
+        try {
+            { alertttt('Не правильное значение'); }
+
+        }
+        catch (error) {
+            alert('error');
+        }
+        try {
+            { alert('Не правильное значение, ошибка'); }
+
+        }
+        catch (error) {
+            alert('error');
+        }
+    </script>
+</body>
+</html>

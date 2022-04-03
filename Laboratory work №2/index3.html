@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Круг</title>
+	<style>
+		table{
+			border:none;
+			text-align: center;
+			border-collapse: collapse;
+		}
+		td{
+			border:2px solid green;
+		}
+		tr:first-child, td:first-child
+		{
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+<script>
+	a = +prompt();
+	b = +prompt();
+	let i, j, sr, p;
+	var s = '<table border=1px cellspacing="3px" cellpadding="10px">' +
+			'<tr> ' +
+			'<td>Радиус</td>' +
+			'<td>Площадь круга</td>' +
+			'<td>Длина окружности</td>' +
+			'</tr>';
+	do {
+		sr = 2 * (Math.PI) * a;
+		p = (Math.PI) * a * a;
+		s += "<tr><td>" + a + "</td><td>" + Math.ceil(sr) + "</td><td>" + Math.round(p) + "</td></tr>";
+		a = a + 0.3;
+	} while (a <= b)
+	{
+	}
+	document.write(s + "</table>");
+
+	var a = 7.4;
+	document.write(Math.round(a));
+	document.write(Math.ceil(a));
+</script>
+</body>
+</html>

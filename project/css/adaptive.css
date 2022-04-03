@@ -1,0 +1,540 @@
+/* 1024 - 1180 */
+@media screen and (max-width: 1180px) {
+
+    #header-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #main-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #main-image {
+        max-width: 400px;
+    }
+    
+    #main-image img {
+        max-width: 100%;
+    }
+    
+    #middle-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #middle-image {
+        max-width: 400px;
+    }
+    
+    #middle-image img {
+        max-width: 100%;
+    }
+
+    #menu-container {
+        max-width: 728px;
+    }
+
+    #menu-information {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .menu-info {
+        margin-right: 15px;
+        margin-left: 15px;
+        margin: 136px 15px 15px 15px;
+    }
+
+    
+    #header-container .phone {
+        margin-left: 185px;
+    }
+
+    .menu-info .btn button {
+        margin: 0;
+    }
+
+    #questionnaire-image {
+        width: 200px;
+    }
+
+    #footer-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #questionnaire-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* 768 - 1023 */
+@media screen and (max-width: 1023px) {
+
+
+    #header-container {
+        max-width: 720px;
+        flex-wrap: wrap;
+    }
+
+    #header-container .phone {
+        display: none;
+    }
+
+    #header-container .logo a{
+        margin-right: 56px;
+    }
+
+    #menu {
+        order: 3;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    #menu a.menu-item {
+        margin: 0 15px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    #main-container {
+        flex-direction: column;
+    }
+
+    #main-image {
+        max-width: 530px;
+        margin-left: inherit;
+        margin-top: -100px;
+    }
+
+    #main-container {
+        padding-top: 70px;
+        max-width: 720px;
+        align-items: flex-start;
+        padding-bottom: 62px;
+    }
+
+    #middle-container {
+        max-width: 728px;
+    }
+
+
+    #middle-information {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #middle-info {
+        margin: 0;
+        max-width: 677px;
+    }
+
+    #middle-text {
+        text-align: center;
+        max-width: none;
+    }
+
+    #middle-title {
+        text-align: center;
+        max-width: 643px;
+    }
+
+    #middle-image {
+        margin-top: 40px;
+    }
+
+    #middle-number {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .middle-number-container {
+        margin: 27px;
+    }
+
+    .middle-number-figure {
+        display: inline-block;
+    }
+
+    .middle-number-title {
+        text-align: center;
+    }
+
+    .middle-number-text {
+        text-align: center;
+    }
+
+    #questionnaire-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 728px;
+    }
+
+    #menu-information {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+
+    #questionnaire-info {
+        max-width: 406px;
+        position: relative;
+    }
+
+    #questionnaire-container #questionnaire-image {
+        order: 2;
+        right: 230px;
+        bottom: 50px;
+        position: absolute;
+        margin-right: 0;
+    }
+
+    #questionnaire-container #clubnika-2 {
+        position: absolute;
+        right: 111px;
+        top: 226px;
+    }
+
+    #questionnaire-container #clubnika-1 {
+        position: absolute;
+        right: 355px;
+        top: 394px;
+    }
+}
+
+/* 425 - 767  */
+@media screen and (max-width: 767px) {
+    #header-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #header-container .logo {
+        margin: 0;
+    }
+
+    
+    #header-container .logo a {
+        margin-right: 0;
+    }
+
+    div#header-menu {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #header-container .menu-item {
+        margin: 0 20px;
+    }
+
+    #menu {
+        order: 3;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    #main-container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #main-container #main-info #main-title {
+        text-align: center;
+        font-size: 33px;
+    }
+
+    #main-text {
+        text-align: center;
+        max-width: none;
+        font-size: 16px;
+    }
+
+    #main-image {
+        margin-top: 38px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 250px;
+    }
+
+    #middle-number {
+        margin-top: 44px;
+        justify-content: space-around;
+    }
+
+    #middle-title {
+        font-size: 30px;
+    }
+
+    #middle-text {
+        font-size: 16px;
+    }
+
+    #middle-container {
+        max-width: 500px;
+    }
+
+    #menu-title {
+        font-size: 30px;
+    }
+
+    #menu-info {
+        margin: 142px 15px 0 15px;
+    }
+
+    .middle-number-container {
+        max-width: 182px;
+        margin: 36px 5px 5px 5px;
+    }
+
+    #questionnaire-title {
+        font-size: 30px;
+    }
+
+    #questionnaire-text {
+        font-size: 16px;
+    }
+
+    #questionnaire-info {
+        max-width: 406px;
+        position: relative;
+    }
+
+    #questionnaire-container #questionnaire-image {
+        order: 2;
+        right: 230px;
+        bottom: 50px;
+        position: absolute;
+    }
+    
+    #questionnaire-container #questionnaire-image {
+        display: none;
+    }
+
+    #clubnika-2 {
+        display: none;
+    }
+    
+    #questionnaire-container #clubnika-1 {
+        top: 289px;
+        right: 45px;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 100px;
+    }
+
+    #footer-container .phone{
+        order: 2;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #footer-container #footer-middle{
+        order: 3;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #footer-container .logo {
+        text-align: center;
+    }
+
+    #logo-block #logo-text {
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+
+/* 275 - 424  */
+@media screen and (max-width: 424px) {
+
+    #header-container {
+        justify-content: space-between;
+        vertical-align: middle;
+    }
+
+    #header-menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 30px;
+        background: #000000d9;
+        top: 0;
+        left: 0;
+    }
+    
+    #header-menu a {
+        color: white;
+    }
+
+
+    #burger {
+        display: inline-block;
+        order: 2;
+    }
+
+    #burger svg{
+        fill: rgb(255, 255, 255);
+    }
+
+
+    #header-menu.open {
+        display: flex;
+        margin-top: 0;
+    }
+
+    #header-container svg{
+        display: block;
+        color: rgb(119, 11, 29);
+        margin-top: 6px;
+    }
+
+    #header-container a.menu-item {
+        margin: 10px 5px;
+    }
+
+    #middle-container {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    #main-container #main-info #main-title {
+        font-size: 30px;
+    }
+
+    #main-container #main-info #main-text {
+        font-size: 16px;
+    }
+
+    .middle-number-container {
+        max-width: 158px;
+    }
+
+    .middle-number-title {
+        font-size: 16px;
+    }
+
+    .middle-number-text {
+        font-size: 13px;
+    }
+
+    #questionnaire-info #questionnaire-title {
+        font-size: 30px;
+    }
+    
+    #questionnaire-info #questionnaire-text {
+        font-size: 16px;
+    }
+
+    #questionnaire-image {
+        display: none;
+    }
+
+    #clubnika-2 {
+        display: none;
+    }
+
+    #questionnaire-container #clubnika-1 {
+        top: 237px;
+        right: 15px;
+    }
+
+    #questionnaire-info .registration {
+        max-width: none;
+    }
+
+    #questionnaire-form .btn {
+        display: block;
+    }
+
+    #questionnaire-form .btn button {
+        width: 100%;
+    }
+
+    .registration .reg-text input {
+        width: 100%;
+    }
+
+    #questionnaire-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    #header-menu svg{
+        display: block;
+        width: 24px;
+        fill: white;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+}
+
+/* 320 - 374  */
+@media screen and (max-width: 374px) {
+    #header-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #main-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #questionnaire-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    
+    #menu-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    
+    #footer-container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    #main-info  #main-title {
+        font-size: 38px;
+    }
+
+    #menu-container  #menu-title {
+        font-size: 38px;
+    }
+
+    #questionnaire-form  .registration .reg-text input {
+        width: 100%;
+    }
+
+    #questionnaire-form .registration input {
+        width: 290px;
+    }
+}

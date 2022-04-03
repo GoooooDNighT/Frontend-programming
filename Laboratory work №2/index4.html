@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zad-4</title>
+    <style>
+        table {
+            border: none;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 2px solid green;
+        }
+
+        tr:first-child, td:first-child {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        var a = prompt('Напиши целое число');
+        x = new Number(a);
+        var b = prompt('Напиши дробное число');
+        y = new Number(b);
+        document.write("<table>");
+        document.write('<tr>');
+        document.write('<td>Число</td>');
+        document.write('<td>Метод</td>');
+        document.write('<td>Результат</td>');
+        document.write('<td>Описание метода</td>');
+        document.write('</tr>');
+
+        document.write('<tr>');
+        document.write('<td>' + x + '</td>');
+        document.write('<td>toExponential(3)</td>');
+        document.write('<td>' + x.toExponential(3) + '</td>');
+        document.write('<td>представляет число в экспоненциальной форме, c 3 цифрами после точки</td>');
+        document.write('</tr>');
+
+        document.write('<tr>');
+        document.write('<td>' + x + '</td>');
+        document.write('<td>toFixed(3)</td>');
+        document.write('<td>' + x.toFixed(3) + '</td>');
+        document.write('<td>представляет число в форме с фиксированным количеством цифр после точки, c 3 цифрами после точки</td>');
+        document.write('</tr>');
+
+        document.write('<tr>');
+        document.write('<td>' + x + '</td>');
+        document.write('<td>toPrecision(3)</td>');
+        document.write('<td>' + x.toPrecision(3) + '</td>');
+        document.write('<td>представляет число с заданным общим количеством значащих цифр 3</td>');
+        document.write('</tr>');
+
+        document.write('<tr>');
+        document.write('<td>' + x + '</td>');
+        document.write('<td>toString(3)</td>');
+        document.write('<td>' + x.toString(3) + '</td>');
+        document.write('<td>возвращает строковое представление числа в двоичной системе исчисления</td>');
+        document.write('</tr>');
+
+        document.write('<tr>');
+        document.write('<td>' + y + '</td>');
+        document.write('<td>toExponential(3)</td>');
+        document.write('<td>' + y.toExponential(3) + '</td>');
+        document.write('<td>представляет число в экспоненциальной форме, c 3 цифрами после точки</td>');
+        document.write('</tr>');
+
+        document.write('<tr>');
+        document.write('<td>' + y + '</td>');
+        document.write('<td>toFixed(3)</td>');
+        document.write('<td>' + y.toFixed(3) + '</td>');
+        document.write('<td>представляет число в форме с фиксированным количеством цифр после точки, c 3 цифрами после точки</td>');
+        document.write('</tr>');
+
+        document.write('<tr>');
+        document.write('<td>' + y + '</td>');
+        document.write('<td>toPrecision(3)</td>');
+        document.write('<td>' + y.toPrecision(3) + '</td>');
+        document.write('<td>представляет число с заданным общим количеством значащих цифр 3</td>');
+        document.write('</tr>');
+
+        document.write('<tr>');
+        document.write('<td>' + y + '</td>');
+        document.write('<td>toString(3)</td>');
+        document.write('<td>' + y.toString(3) + '</td>');
+        document.write('<td>возвращает строковое представление числа в двоичной системе исчисления</td>');
+        document.write('</tr>');
+        document.write("</table>");
+    </script>
+</body>
+</html>

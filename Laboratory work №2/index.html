@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <script type="text/javascript">
+        // Задание 1
+        function fun1() {
+            alert('Вас приветствует учебный центр');
+            a = prompt('Введите имя:', 'Имя');
+            alert('Добро пожаловать на наши курсы, ' + a);
+            a = confirm('Хотите стать Web-дизайнером?');
+            if (a === true) alert('"Учите стили CSS и JavaScript!'); else alert('Упускаете время!');
+        }
+
+        // Задание 2
+        function fun2() {
+            alert(10 + 5);
+            alert('10' + '5');
+            alert(22 + '5');
+            alert('22' + 5);
+            alert('Результатом сложения строки и числа всегда будет строка');
+        }
+
+        // Задание 3
+        function fun3() {
+            x = prompt('Введите х = ');
+            y = prompt('Введите y = ');
+            document.write(x * y * 20 + '<br>');
+            alert(x * y * 20);
+            z = x * y * 20;
+            document.write(x * y * 3 + '<br>');
+            alert(x * y * 3);
+            w = x * y * 3;
+            alert(z % w);
+            document.write(z % w);
+        }
+
+        // Задание 4
+        function fun4() {
+            s = prompt('Введите число= ');
+            if ((s > 40 || s < 20) && s != 15 && s % 5 === 0) {
+                alert('Правильное значение')
+            } else alert('Не правильное значение');
+            // пример задания 4
+            b = confirm('Получил оценку?');
+            if (b === true) {
+                var m = prompt('Какую?');
+                if (m >= 5) alert('Хорошо');
+                else alert('Плохо');
+            }
+        }
+
+        // Задание 5
+        function fun5() {
+            var f = prompt('Введи 1 число = ');
+            var e = prompt('Введи 2 число = ');
+            if (f > e) alert('1 число > 2 числа');
+            else if (f < e) alert('2 число > 1 числа');
+            else alert('1 число = 2 числу');
+            c = (f > e) ? f : e;
+            alert(c);
+            // Пример задания 5
+            var p = prompt('Введи число A= ');
+            var y = prompt('Введи число B= ');
+            if (p > y) alert('A => B');
+            else alert('A =< B');
+        }
+
+        // Задание 6
+        function fun6() {
+            let k = new Date();
+
+            switch (k.getDay()) {
+                case 1:
+                    alert('Понедельник');
+                    break;
+                case 2:
+                    alert('Вторник');
+                    break;
+                case 3:
+                    alert('Среда');
+                    break;
+                case 4:
+                    alert('Четверг');
+                    break;
+                case 5:
+                    alert('Пятница');
+                    break;
+                case 6:
+                    alert('Суббота');
+                    break;
+                case 0:
+                    alert('Воскресенье');
+                    break;
+                default:
+                    alert('ssss');
+            }
+        }
+
+        // Задание 7
+        function fun7() {
+            try {
+                {
+                    alertttt('Не правильное значение');
+                }
+
+            } catch (error) {
+                alert('error');
+            }
+            try {
+                {
+                    alert('Не правильное значение, ошибка');
+                }
+
+            } catch (error) {
+                alert('error');
+            }
+        }
+    </script>
+</head>
+<body>
+<div>
+    <input type='button' value='1-zad' onclick='fun1()'/>
+    <input type='button' value='2-zad' onclick='fun2()'/>
+    <input type='button' value='3-zad' onclick='fun3()'/>
+    <input type='button' value='4-zad' onclick='fun4()'/>
+    <input type='button' value='5-zad' onclick='fun5()'/>
+    <input type='button' value='6-zad' onclick='fun6()'/>
+    <input type='button' value='7-zad' onclick='fun7()'/>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+input {
+    background: blue;
+    color: white;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    background: #ffffad;
+}
